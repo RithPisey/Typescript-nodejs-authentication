@@ -1,0 +1,36 @@
+{
+	"name": "typescript-nodejs-authentication",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon",
+		"start": "node dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"connect-mongo": "^4.6.0",
+		"cookie-parser": "^1.4.6",
+		"dotenv": "^16.0.3",
+		"ejs": "^3.1.8",
+		"express": "^4.18.2",
+		"express-session": "^1.17.3",
+		"jsonwebtoken": "^8.5.1",
+		"mongodb": "4.12",
+		"nodemon": "^2.0.20",
+		"passport": "^0.6.0",
+		"passport-local": "^1.0.0"
+	},
+	"devDependencies": {
+		"@types/cookie-parser": "^1.4.3",
+		"@types/express": "^4.17.14",
+		"@types/express-session": "^1.17.5",
+		"@types/jsonwebtoken": "^8.5.9",
+		"@types/passport": "^1.0.11",
+		"@types/passport-local": "^1.0.34",
+		"typescript": "^4.9.3"
+	}
+}
